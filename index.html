@@ -90,6 +90,10 @@
         <fieldset>
           <legend>Would you like to join our mailing list?</legend>
           <label>
+            <input type="checkbox" name="Interested_In" value="Website"> Website<br>
+            <input type="checkbox" name="Interested_In" value="Shopping Cart"> Shopping Cart<br>
+            <input type="checkbox" name="Interested_In" value="JS Thingy"> JS Thingy<br>
+            <input type="checkbox" name="Interested_In" value="Loillipops"> Customary Loillipops
             <input type="radio" name="Mailing_list" value="Yes" required> Yes<br>
             <input type="radio" name="Mailing_list" value="No"> No<br>
           </label>
@@ -100,6 +104,24 @@
   <label for="Note">Note</label><br>
   <textarea id="Note" name="Note" placeholder="Place any special instructions here!" rows="4" cols="42"></textarea>
 </div>
+      </div>
+
+      <div>
+        <label for="State">State</label><br>
+        <select id="State" name="State" required>
+          <option value="">Please enter state</option>
+          <option value="AK">Alaska</option>
+          <option value="CA">California</option>
+          <option value="OR">Oregon</option>
+          <option value="WA">Washington
+          </option>
+        </select>
+      </div>
+      <label for="Note">Note</label><br>
+      <textarea id="Note" name="Note" placeholder="Place Any Special Instructions In Here" rows="4" cols="42"></textarea>
+      <div>
+
+      </div>
 
       <div>
         <input type="submit">
